@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
         name.each do |names|
           if new_hash[names] == names
             nil 
+            binding.pry
           end
           if new_hash[names] = {}
             new_hash
@@ -16,5 +17,4 @@ def nyc_pigeon_organizer(data)
       end
   end
   new_hash
-  binding.pry
 end
