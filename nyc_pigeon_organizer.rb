@@ -8,8 +8,9 @@ def nyc_pigeon_organizer(data)
         name.each do |names|
           if !new_hash[names] 
              new_hash[names] = {}
-            binding.pry
           end
+          if !new_hash[names][key]
+            new_hash[names][key] = []
         end
       end
   end
